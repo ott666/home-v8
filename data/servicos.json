@@ -87,8 +87,11 @@
         "pastaFotos":"cuidadores",
         "title":"Cuidadores de Idosos",
         "ctaBg":"img3.png",
-        "ctaTitle":"",
-        "ctaTexto":"",
+        
+            "ctaTitle": "Cuidadores de Idosos Dedicados",
+            "ctaTexto": "Atenção especializada, cuidado constante. Proporcione qualidade de vida para os idosos e tranquilidade para suas famílias com nossa equipe de cuidadores altamente qualificados."
+          ,
+          
         "p1s": [
             "Destinado a pessoas que necessitam de auxílio nos cuidados diários, A Home & Heath Care disponibiliza à família, um profissional cuidador, que será o responsável pelos cuidados e terá a supervisão semanal de uma enfermeira responsável, conforme a necessidade do cliente e família, com atendimentos personalizados desde auxilio ao banho e medicamentos, 6 horas, 8 horas diurnas assim como 12 horas dia e noite e 24 horas.",
             "Nossos cuidadores são preparados e capacitados para promover o bem-estar, qualidade de vida e conforto ao idoso e sua família, auxiliando nos cuidados e atividades diárias, como:"
