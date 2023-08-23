@@ -8,10 +8,7 @@ function Footer() {
     <h1 className='text-3xl text-white font-bold text-center '>Home Health Ribeirão Preto</h1>
     <p className='text-lg pt-2 text-white'>Cuide do seu ente querido com carinho e profissionalismo. Contrate um cuidador de idosos hoje mesmo!
 </p> 
-    <div className='pt-10 flex justify-center gap-5 '>
-    <input placeholder='Seu e-mail' className='rounded-3xl pl-3'/><label className={`bg-purple-500 text-white px-5 py-2 rounded-3xl`} htmlFor="">Enviar</label>
-
-    </div>
+   
 
     </Container>
 

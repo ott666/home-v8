@@ -1,3 +1,4 @@
+'use client'
 import { ContactCard } from '@/components/ContactCard'
 import Container from '@/components/Container/Container'
 import React from 'react'

@@ -26,7 +26,7 @@ export default function CtaServico(props:any){
                
                 
                 `}> 
-                    <div className='absolute invisible 2xl:visible w-[700px] h-[700px] right-14'>
+                    <div className='absolute invisible w-[200px] 2xl:visible 2xl:w-[500px] 2xl:h-[500px] 3xl:w-[700px] 3xl:h-[700px] right-14'>
                         <Image src={'/Logo-HH-PNG.png'} alt='logo' style={{objectFit:'cover', zIndex:2}} fill={true}/>
                     </div>
                     <div id='wrapHeroContent' 
@@ -63,7 +63,7 @@ export default function CtaServico(props:any){
                             3xl:text-[72px]
 
                         `}> 
-                               {props.servico.title}
+                               {props.servico.ctaTitle}
                         </h1>
 
                         <p id='paragraphHero' 
@@ -78,7 +78,7 @@ export default function CtaServico(props:any){
                                 xl:text-[24px]
                                 3xl:text-[28px] 
                         `}>
-                            Entendemos que cada pessoa é única, por isso adaptamos nossos cuidados para atender às necessidades individuais.
+                            {props.servico.ctaTexto}
                         </p>
 
                         <div 
@@ -173,7 +173,7 @@ export default function CtaServico(props:any){
                     objectFit:'cover',
                     zIndex:'-2'
                    }}
-                   src={`/services/consulta/img2.png`} fill={true} alt='bg'/>
+                   src={`/services/${props.servico.pastaFotos}/img2.png`} fill={true} alt='bg'/>
                 </div>
             </div>
         
