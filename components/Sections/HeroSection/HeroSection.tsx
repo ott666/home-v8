@@ -4,7 +4,7 @@ import CtaServico from '@/components/CtaServico/CtaServico'
 import Servicos from "@/data/servicos.json"
 import Image from 'next/image'
 import Link from 'next/link'
-const servicosDestaque = ['acompanhamento', 'consulta-medica-domiciliar']
+const servicosDestaque = ['acompanhamento', 'cuidadores-de-idosos']
 
 
 
