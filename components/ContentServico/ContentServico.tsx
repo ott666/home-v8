@@ -16,7 +16,7 @@ export default function ContentServico(props:any){
             <div id='imagem' className={`
             w-full xl:w-[48%] relative 
             flex justify-center py-5 xl:py-2
-            rounded-2xl
+            rounded-2xl min-h-[300px]
            
             `}>
                 <Image className='rounded-2xl'

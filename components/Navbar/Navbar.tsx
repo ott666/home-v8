@@ -57,9 +57,9 @@ const components: { title: string; href: string; description: string }[] = [
 export default function NavigationMenuDemo() {
   return (
 
-    <NavigationMenu id="lokooo" className="w-full bg-purple-500/50  px-80 flex justify-between  h-24">
+    <NavigationMenu id="lokooo" className="w-full bg-purple-500/80  sm:px-80 flex justify-center px:0 sm:justify-between h-24">
         
-      <Link href={'/'}><h1 className="text-3xl text-white font-extralight">HOME HEALTH RIBEIRÃO</h1></Link>
+      <Link href={'/'}><h1 className="text-3xl text-white absolute invisible sm:visible sm:relative font-extralight"></h1></Link>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Início</NavigationMenuTrigger>
@@ -97,7 +97,7 @@ export default function NavigationMenuDemo() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Serviços</NavigationMenuTrigger>
           <NavigationMenuContent>
-            <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
+            <ul className="grid w-[300px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {Servicos.map((servico) => (
                 <ListItem
                   key={servico.title}

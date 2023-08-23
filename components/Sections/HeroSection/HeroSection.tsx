@@ -23,7 +23,7 @@ export default function HeroSection(){
     })
 
     return(
-        <div className='w-full bg-purple-400 h-[100vh]  text-white'>
+        <div className='w-full bg-purple-400 h-[50vh] sm:h-[100vh]  text-white'>
 
     <Swiper className={`
     w-full h-[50vh] sm:h-full
@@ -53,7 +53,7 @@ export default function HeroSection(){
                
                 
                 `}> 
-                    <div className='absolute invisible 2xl:visible 2xl:w-[500px] 2xl:h-[500px] 3xl:w-[700px] 3xl:h-[700px] right-14'>
+                    <div className='absolute invisible w-[200px] 2xl:visible 2xl:w-[500px] 2xl:h-[500px] 3xl:w-[700px] 3xl:h-[700px] right-14'>
                         <Image src={'/Logo-HH-PNG.png'} alt='logo' style={{objectFit:'cover', zIndex:2}} fill={true}/>
                     </div>
                     <div id='wrapHeroContent' 
@@ -130,8 +130,10 @@ export default function HeroSection(){
                             className={`
                             rounded-3xl
                             text-center 
-                            bg-purple-500 
-
+                            bg-purple-500
+                            hover:bg-white
+                            hover:text-black
+                            duration-700
                                 text-[14px]
                                     sm:text-3xl 
                                     md:text-[30px]
@@ -158,6 +160,10 @@ export default function HeroSection(){
                             <Link href={'/contato'} 
                             className={`
                             text-center
+                            hover:bg-purple-500
+                            hover:text-white
+                            hover:border-purple-500
+                            duration-700
                            
                             
                             bg-transparent

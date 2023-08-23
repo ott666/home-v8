@@ -7,7 +7,7 @@ function BreadCrumbServicos(props:any) {
       <div className='absolute inset-0 bg-black/50'>
       </div>
         <Image style= {{objectFit:'cover', zIndex:-1}}src={`/services/${props.Servico.pastaFotos}/img1.png`} alt='fundo' fill={true}/>
-        <h1 className='text-center text-5xl z-[5] text-white font-bold'>{props.Servico.title}</h1>
+        <h1 className='text-center text-3xl sm:text-5xl z-[5] text-white font-bold'>{props.Servico.title}</h1>
     
     </div>
     

@@ -14,10 +14,10 @@ function page() {
     <Container>
 
         <div id='wraprow' className={`
-        flex flex-row`}>
+        flex flex-col lg:flex-row gap-5 `}>
 
-                <div id='esquerda ' className='w-[100%]'>
-                    <h1 className='text-xl '>A Home Health Ribeirão é uma empresa DE APOIO E ASSISTENCIA A PACIENTE A DOMICÍLIO, que oferece serviços para auxiliar nos cuidados de quem você ama.
+                <div id='esquerda ' className='w-[100%] py-2 flex flex-col gap-5'>
+                    <h1  className='text-xl bg-purple-500 rounded-3xl font-bold pl-2 py-2'>A Home Health Ribeirão é uma empresa DE APOIO E ASSISTENCIA A PACIENTE A DOMICÍLIO, que oferece serviços para auxiliar nos cuidados de quem você ama.
                     </h1>
                     <p>Operamos através de franqueados de propriedade e operação independentes, profissionais devidamente selecionados e capacitados para o atendimento de enfermagem e cuidados a paciente domiciliar. Por esse motivo, a segurança e o bem-estar de nossos clientes/pacientes são a prioridade em nossos serviços. Independentemente de você precisar ficar em sua própria casa, com um parente ou amigo, nós podemos ajudar.
 
@@ -36,15 +36,15 @@ function page() {
 </p>
                 </div>
                 <div className='direita flex flex-col  w-full'>
-            <div className='relative w-[100%] h-full'>
+            <div className='relative w-[100%] h-full min-h-[600px] rounded-3xl overflow-hidden'>
             <Image style={{objectFit:'cover'}} src={`/team/quem-somos.png`} fill={true} alt='a'/>
 
             </div>
-        <p className='text-bold text-lg'>Missão</p>
+        <p className='font-bold pt-2 text-lg'>Missão</p>
         <p className='text-sm'>Oferecer melhor qualidade de vida para todas as pessoas.</p>
-        <p className='text-bold text-lg'>Visão</p>
+        <p className='font-bold pt-2 text-lg'>Visão</p>
         <p className='text-sm'>Tornar-se referência de cuidado e qualidade no segmento de serviços home care.</p>
-        <p className='text-bold text-lg'>Valores</p>
+        <p className='font-bold pt-2 text-lg'>Valores</p>
         <p className='text-sm'>Ética, Responsabilidade, Integridade a vida, Amor ao próximo, Segurança e Respeito.</p>
         </div>
         </div>

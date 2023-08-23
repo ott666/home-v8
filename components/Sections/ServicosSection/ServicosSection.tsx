@@ -21,7 +21,7 @@ function ServicosSection() {
 
              <div id='wrap-servicos'
              className={`
-             flex flex-wrap justify-between gap-y-5
+             flex flex-wrap justify-center md:justify-between gap-y-5
              `}>
                 {Servicos.map((servico)=>(
                 <ServicoCard key={servico.id} Servico={servico} />

@@ -26,7 +26,7 @@ export default function CtaServico(props:any){
                
                 
                 `}> 
-                    <div className='absolute w-[700px] h-[700px] right-14'>
+                    <div className='absolute invisible 2xl:visible w-[700px] h-[700px] right-14'>
                         <Image src={'/Logo-HH-PNG.png'} alt='logo' style={{objectFit:'cover', zIndex:2}} fill={true}/>
                     </div>
                     <div id='wrapHeroContent' 
