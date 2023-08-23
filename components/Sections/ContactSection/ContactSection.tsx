@@ -9,7 +9,7 @@ function ContactSection() {
     <Container>
         <div className='flex flex-col lg:flex-row justify-between gap-1'>
         <ContactCard icon='location' title='Endereço' l1='Rangel Pestana, 547' l2='Ribeirão Preto, SP 14030-210'/>
-        <ContactCard icon='mail' title='E-mail' l1='vendas.3@stockprint.com.br' l2='vendas.3@stockprint.com.br'/>
+        <ContactCard icon='mail' title='E-mail' l1=' ' l2=' '/>
         <ContactCard icon='phone' title='Telefones' l1='(16) 3911-4777' l2='(16) 99170-6391'/>
             
 
