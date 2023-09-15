@@ -12,7 +12,7 @@ import { Metadata } from 'next'
 
 export const metadata:Metadata={
   title:"Home Health Ribeirão - Cuidadores de idosos",
-  description:"A Home Health Ribeirão é uma empresa de apoio e assistência a pacientes a domicílio, acompanhamento hospitalar e serviços de saúde. Profissionais qualificados e tratamento humanizado.",
+  description:"A Home Health Ribeirão é uma empresa de apoio e assistência a pacientes a domicílio, acompanhamento hospitalar e serviços de saúde. Profissionais qualificados e tratamento humanizado."
 
 }
 
