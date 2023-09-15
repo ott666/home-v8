@@ -1,5 +1,17 @@
 import React from 'react'
 
+import { register } from 'swiper/element/bundle';
+
+register();
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import 'swiper/css/autoplay'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import CtaServico from '@/components/CtaServico/CtaServico'
 import Servicos from "@/data/servicos.json"
 import Image from 'next/image'
@@ -8,7 +20,6 @@ const servicosDestaque = ['acompanhamento', 'cuidadores-de-idosos']
 
 
 
-import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -21,19 +32,18 @@ export default function HeroSection(){
             return servico.pseudo === a
         })
     })
-
+    
     return(
         <div className='w-full bg-purple-400 h-[50vh] sm:h-[100vh]  text-white'>
 
-    <Swiper className={`
-    w-full h-[50vh] sm:h-full
+    <Swiper 
     
-    
-    `}
-        spaceBetween={0}
+    className={`w-full h-[50vh] sm:h-full`}  
         slidesPerView={1}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        pagination={{ clickable: true }}
+        navigation
+        autoplay={true}
+        spaceBetween={0}
         >       
              <SwiperSlide className={`
             

@@ -128,7 +128,7 @@ export default function CtaServico(props:any){
                                 Serviços
                             </Link>
                             
-                            <Link href={'/servicos'} 
+                            <Link href={`/servicos/${props.servico.pseudo}`} 
                             className={`
                             text-center
                            
@@ -160,7 +160,7 @@ export default function CtaServico(props:any){
                                     3xl:py-[8px] 
                             
                             `}>
-                                Serviços
+                                Saiba mais
                             </Link>
                         </div>
                        

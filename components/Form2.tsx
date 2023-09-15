@@ -17,7 +17,7 @@ function ContactForm() {
                 field='name'
                 errors={state.errors}/>
 
-                <input placeholder='Seu e-mail' className='w-full max-w[400px] lg:w-[50%] text-start pl-5 rounded-3xl py-6 '/>
+                <input placeholder='Seu e-mail' id='email' type='email' name='email' className='w-full max-w[400px] lg:w-[50%] text-start pl-5 rounded-3xl py-6 '/>
                 <ValidationError 
                 prefix="Email" 
                 field="email"
