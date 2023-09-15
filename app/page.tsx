@@ -8,7 +8,7 @@ import TestimonialsSection from '@/components/Sections/TestimonialsSection/Testi
 import FotosSection from '@/components/Sections/FotosSection/FotosSection'
 import GoogleMaps from '@/components/GoogleMaps'
 import ContactSection from '@/components/Sections/ContactSection/ContactSection'
-import { Metadata } from 'next'
+
 
 
 

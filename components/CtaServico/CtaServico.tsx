@@ -104,7 +104,9 @@ export default function CtaServico(props:any){
                             rounded-3xl
                             text-center 
                             bg-purple-500 
-
+                            hover:bg-white
+                            hover:text-black
+                            duration-700
                                 text-[14px]
                                     sm:text-3xl 
                                     md:text-[30px]
