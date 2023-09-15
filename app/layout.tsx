@@ -6,8 +6,8 @@ const Myanmar = Noto_Sans_Mayan_Numerals({ subsets: ['mayan-numerals'], weight:[
 import Footer from '@/components/Footer/Footer'
 import { WhatsappButton } from '@/components/WhatsappButton'
 export const metadata: Metadata = {
-  title: 'Home Health Ribeirão',
-  description: 'Cuidadores de idosos',
+  title: 'Home Health Ribeirão - Cuidadores de Idosos',
+  description: 'A Home Health Ribeirão é uma empresa de apoio e assistência a pacientes a domicílio, acompanhamento hospitalar e serviços de saúde. Profissionais qualificados e tratamento humanizado.',
 }
 
 export default function RootLayout({
