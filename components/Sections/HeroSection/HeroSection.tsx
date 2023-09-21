@@ -59,7 +59,7 @@ export default function HeroSection(){
                 h-full
                 flex flex-col lg:flex-row 
                 lg:justify-start lg:items-center
-                justify-center items-center 
+                justify-center items-center pt-10 sm:pt-0
                
                 
                 `}> 
@@ -220,7 +220,7 @@ export default function HeroSection(){
                 </div>
             </SwiperSlide>
        {result.map((servico)=>(
-                <SwiperSlide className='w-full h-[80%]' key={servico.id}>
+                <SwiperSlide className='w-full h-[80%] pt-10 sm:pt-0' key={servico.id}>
                    <CtaServico servico={servico} />
                 </SwiperSlide>
              ))}
