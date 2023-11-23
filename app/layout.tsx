@@ -5,6 +5,8 @@ import  NavBar  from '@/components/Navbar/Navbar'
 const Myanmar = Noto_Sans_Mayan_Numerals({ subsets: ['mayan-numerals'], weight:['400'] })
 import Footer from '@/components/Footer/Footer'
 import { WhatsappButton } from '@/components/WhatsappButton'
+import { GoogleTagManager } from '@next/third-parties/google'
+
 export const metadata: Metadata = {
   title: 'Home Health Ribeirão - Cuidadores de Idosos',
   description: 'A Home Health Ribeirão é uma empresa de apoio e assistência a pacientes a domicílio, acompanhamento hospitalar e serviços de saúde. Profissionais qualificados e tratamento humanizado.',
@@ -17,12 +19,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+
       <body className={Myanmar.className}>
         <NavBar/>
         <WhatsappButton/>
         {children}
         <Footer/>
         </body>
+        <GoogleTagManager gtmId="AW-10814312459" />
+
     </html>
   )
 }
