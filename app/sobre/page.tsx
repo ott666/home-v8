@@ -14,7 +14,7 @@ function page() {
     <Container>
 
         <div id='wraprow' className={`
-        flex flex-col lg:flex-row gap-5 `}>
+        flex flex-col lg:flex-row gap-5 py-10 `}>
 
                 <div id='esquerda ' className='w-[100%] py-2 flex flex-col gap-5'>
                     <h1  className='text-xl bg-purple-500 rounded-3xl font-bold pl-2 py-2'>A Home Health Ribeirão é uma empresa DE APOIO E ASSISTENCIA A PACIENTE A DOMICÍLIO, que oferece serviços para auxiliar nos cuidados de quem você ama.
@@ -36,8 +36,8 @@ function page() {
 </p>
                 </div>
                 <div className='direita flex flex-col  w-full'>
-            <div className='relative w-[100%] h-full min-h-[600px] rounded-3xl overflow-hidden'>
-            <Image style={{objectFit:'cover'}} src={`/team/quem-somos.png`} fill={true} alt='a'/>
+            <div className='relative w-[100%] h-full min-h-[350px] max-w-[400px] mx-auto lg:max-w-none max-h-[500px] 2xl:max-h-none rounded-3xl overflow-hidden'>
+            <Image style={{objectFit:'cover', objectPosition:'top'}} src={`/team/quem-somos.jpeg`} fill={true} alt='a'/>
 
             </div>
         <p className='font-bold pt-2 text-lg'>Missão</p>

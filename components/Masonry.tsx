@@ -64,13 +64,42 @@ const itemData = [
     img: '/team/port-6.jpg',
     title: 'Fern',
   },
-  {
-    img: '/team/port-7.jpg',
-    title: 'Fern',
-  },
+
   {
     img: '/team/port-8.jpg',
     title: 'Fern',
-  }
+  },
+  {
+    img: '/team/port-9.jpeg',
+    title: 'Fern',
+  },
+  {
+    img: '/team/port-10.jpeg',
+    title: 'Fern',
+  },
+  {
+    img: '/team/port-11.jpeg',
+    title: 'Fern',
+  },
+  {
+    img: '/team/port-12.jpeg',
+    title: 'Fern',
+  },
+  {
+    img: '/team/port-13.jpeg',
+    title: 'Fern',
+  },
+  {
+    img: '/team/port-14.jpeg',
+    title: 'Fern',
+  },
+  {
+    img: '/team/port-15.jpeg',
+    title: 'Fern',
+  },
+  {
+    img: '/team/port-16.jpeg',
+    title: 'Fern',
+  },
 
 ];
